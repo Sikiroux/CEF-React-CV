@@ -1,0 +1,17 @@
+
+:root {
+  --textColor: #444;
+  --titleColor: #1e1e1e;
+  --backgroundColor: #EEE;
+  --strong: #000000;
+}
+
+body {
+  color: var(--textColor);
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--titleColor);
+}
