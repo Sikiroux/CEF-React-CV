@@ -1,0 +1,17 @@
+.collapse {
+    justify-content: end;
+}
+
+.navbar {
+    .container-fluid {
+        margin: {
+            left: 3%;
+            right: 3%;
+        }
+        padding: 5px;
+    }
+}
+
+.navbar-nav {
+    gap: 30px;
+}

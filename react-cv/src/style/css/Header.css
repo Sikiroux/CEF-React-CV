@@ -1,0 +1,15 @@
+.collapse {
+  justify-content: end;
+}
+
+.navbar .container-fluid {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 5px;
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+/*# sourceMappingURL=Header.css.map */

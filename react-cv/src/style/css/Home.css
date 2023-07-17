@@ -1,0 +1,54 @@
+
+.main-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../image/programmer-gb8b1cab7f_1920.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    min-height: 600px;
+}
+
+.main-container {
+    box-shadow: 2px 2px 11px 6px #EEE;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-container .main-container__about-container,
+.main-container .main-container__skills-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-container .main-container__about-container {
+    padding-left: 30px;
+}
+
+.main-container__skills-container {
+    padding-right: 30px;
+}
+
+.main-container__about-container .about-container__title {
+    padding: 8px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid blue;
+}
+
+.skills-container__image {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.skill {
+    margin-bottom: 5px;
+}
+
+.progress {
+    margin-bottom: 15px;
+}
