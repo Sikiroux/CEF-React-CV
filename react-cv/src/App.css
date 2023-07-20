@@ -6,10 +6,22 @@
   --strong: #000000;
 }
 
+
+
 body {
   color: var(--textColor);
   font-family: 'Lato', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
 }
 
 h1,h2,h3,h4,h5,h6 {

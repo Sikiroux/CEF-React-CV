@@ -35,7 +35,7 @@
 .main-container__about-container .about-container__title {
     padding: 8px;
     margin-bottom: 30px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0000ff;
 }
 
 .skills-container__image {
