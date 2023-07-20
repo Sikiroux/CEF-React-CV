@@ -14,15 +14,15 @@ import Footer from './component/Footer'
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header/>
       <Routes>
           <Route path="/" element={<Home/>}></Route>
-          <Route path="/Services" element={<Services></Services>}></Route>
-          <Route path="/Realisation" element={<Realisation></Realisation>}></Route>
-          <Route path="/Blog" element={<Blog></Blog>}></Route>
-          <Route path="/Contact" element={<Contact></Contact>}></Route>
+          <Route path="/Services" element={<Services/>}></Route>
+          <Route path="/Realisation" element={<Realisation/>}></Route>
+          <Route path="/Blog" element={<Blog/>}></Route>
+          <Route path="/Contact" element={<Contact/>}></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }
