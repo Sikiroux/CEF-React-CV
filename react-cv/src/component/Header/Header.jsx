@@ -1,31 +1,28 @@
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 import './Header.css'
 
 export default function Header() {
-    
+    function changeStyleLink() {
       document.addEventListener("DOMContentLoaded", () => {
-        function changeStyleLink() {
-          let nav = document.querySelector(".navbar-nav");
-          let linksNav = nav.querySelectorAll("nav-link");
-          console.log(linksNav);
-    
-          linksNav.forEach(link => {
-            link.addEventListener("click",() => {
-              linksNav.forEach(link => {
-                link.classList.remove("active");
-              })
-              link.classList.add("active");
-            })
-          })
         
-        }
-        changeStyleLink();
       })
 
-    
+      // let nav = document.querySelector(".navbar-nav");
+      // let linksNav = nav.querySelectorAll("nav-link");
+      // console.log(linksNav);
 
-  
+      // linksNav.forEach(link => {
+      //   link.addEventListener("click",() => {
+      //     linksNav.forEach(link => {
+      //       link.classList.remove("active");
+      //     })
+      //     link.classList.add("active");
+      //   })
+      // })
+    }
+
+    changeStyleLink();
 
     return(
         <header>
@@ -38,19 +35,19 @@ export default function Header() {
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" to="/">ACCUEIL</Link>
+                    <NavLink className="nav-link " aria-current="page" to="/">ACCUEIL</NavLink>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/Services">SERVICES</Link>
+                    <NavLink className="nav-link" to="/Services">SERVICES</NavLink>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/Realisation">REALISATION</Link>
+                    <NavLink className="nav-link" to="/Realisation">REALISATION</NavLink>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/Blog">BLOG</Link>
+                    <NavLink className="nav-link" to="/Blog">BLOG</NavLink>
                   </li>
                   <li>
-                    <Link class="nav-link" to="/Contact">ME CONTACTER</Link>
+                    <NavLink className="nav-link" to="/Contact">ME CONTACTER</NavLink>
                   </li>
                 </ul>
               </div>
