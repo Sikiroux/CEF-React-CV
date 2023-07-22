@@ -1,19 +1,17 @@
-import '../style/css/Service.css';
-import ux from '../icon/rdesktop.svg';
-import code from '../icon/rcode.svg';
-import seo from '../icon/rsearch.svg';
-import techno from '../image/geo.jpg';
+import './Service.css';
+import ux from '../../asset/icon/rdesktop.svg';
+import code from '../../asset/icon/rcode.svg';
+import seo from '../../asset/icon/rsearch.svg';
+import techno from '../../asset/image/geo.jpg';
+
+import Banner from "../../component/Banner/Banner.jsx";
+import TitleSection from "../../component/TitleSection/TitleSection.jsx";
 
 export default function Blog() {
     return(
         <main>
-            <div class="image-header"></div>
-            <div className="container main__title-container">
-                <h1>MON OFFRE DE SERVICES</h1>
-                <p>Voici les prestations sur lesquelles je peux intervenir</p>
-                <div className="small-border"></div>
-            </div>
-
+            <Banner/>
+            <TitleSection title="MON OFFRE DE SERVICES" presentation="Voici les prestations sur lesquelles je peux intervenir"/>
             <div className="row container-fluid main__services-container ">
                 <div className="col-lg-3 col-md-3 col-sm-4 services-container__ux gx-4">
                     <img className="logo ux-design-logo" src={ux} alt="ux-icon"/>

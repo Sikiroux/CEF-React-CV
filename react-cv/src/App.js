@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import {Routes,Route} from "react-router-dom";
 
-import Blog from "./pages/Blog"
-import Home from "./pages/Home"
-import Realisation from "./pages/Realisation"
-import Services from "./pages/Services"
-import Contact from "./pages/Contact"
+import Blog from "./pages/pageBlog/Blog.jsx"
+import Home from "./pages/pageHome/Home.jsx"
+import Realisation from "./pages/pageReal/Realisation.jsx"
+import Services from "./pages/pageServices/Services.jsx"
+import Contact from "./pages/pageContact/Contact.jsx"
 
-import Header from './component/Header'
-import Footer from './component/Footer'
+import Header from './component/Header/Header.jsx'
+import Footer from './component/Footer/Footer.jsx'
 
 function App() {
   return (

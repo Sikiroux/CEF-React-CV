@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 
-import '../style/css/Footer.css';
+import './Footer.css';
 
-import twitter from '../icon/twitter-sign.png';
-import linkedin from '../icon/linkedin-logo.png';
-import github from '../icon/github-sign.png';
-import chevron from '../icon/chevrn.svg';
+import twitter from '../../asset/icon/twitter-sign.png';
+import linkedin from '../../asset/icon/linkedin-logo.png';
+import github from '../../asset/icon/github-sign.png';
+import chevron from '../../asset/icon/chevrn.svg';
 
 export default function Footer() {
    return(
