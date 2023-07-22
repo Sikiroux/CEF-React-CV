@@ -1,8 +1,32 @@
 import {Link} from "react-router-dom";
 
-import '../style/css/Header.css'
+import './Header.css'
 
 export default function Header() {
+    
+      document.addEventListener("DOMContentLoaded", () => {
+        function changeStyleLink() {
+          let nav = document.querySelector(".navbar-nav");
+          let linksNav = nav.querySelectorAll("nav-link");
+          console.log(linksNav);
+    
+          linksNav.forEach(link => {
+            link.addEventListener("click",() => {
+              linksNav.forEach(link => {
+                link.classList.remove("active");
+              })
+              link.classList.add("active");
+            })
+          })
+        
+        }
+        changeStyleLink();
+      })
+
+    
+
+  
+
     return(
         <header>
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

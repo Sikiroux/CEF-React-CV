@@ -1,5 +1,5 @@
-import "../style/css/Home.css"
-import image from "../image/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+import "./Home.css"
+import image from "../../asset/image/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
 
 export default function Home() {
     return(

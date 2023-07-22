@@ -1,11 +1,4 @@
-.main__title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
+
 
 .main__services-container {
     display: flex;
@@ -34,15 +27,4 @@
     height: 52px;
 }
 
-.small-border {
-    border: 2px solid blue;
-    width: 20%;
-}
 
-.image-header {
-    width: 100%;
-    height: 100px;
-    background-image: url(../../image/geo.jpg);
-    background-size: cover;
-    background-position: center;
-}

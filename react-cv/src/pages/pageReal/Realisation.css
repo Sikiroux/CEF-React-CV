@@ -1,0 +1,33 @@
+.portfolio-section {
+    margin-bottom: 60px;
+}
+
+.portfolio-section__card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.project-card.card {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project-card .card-body .card-button {
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.project-card .card-button a {
+    text-decoration: none;
+    color: blue;
+    padding: 8px;
+}
+
+.card-footer p{
+    margin-bottom: 0;
+}
