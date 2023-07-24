@@ -3,6 +3,14 @@
     justify-content: center;
 }
 
+.blogcard-container__card-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 15px;
+}
+
 .blog-card {
     margin-right: 10px;
     margin-left: 10px;
