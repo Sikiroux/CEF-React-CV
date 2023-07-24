@@ -13,6 +13,8 @@
     text-align: center;
     margin-right: 10px;
     margin-left: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .project-card .card-body .card-button {

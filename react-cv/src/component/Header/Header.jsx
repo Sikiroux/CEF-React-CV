@@ -35,7 +35,7 @@ export default function Header() {
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <NavLink className="nav-link " aria-current="page" to="/">ACCUEIL</NavLink>
+                    <NavLink className="nav-link " to="/">ACCUEIL</NavLink>
                   </li>
                   <li class="nav-item">
                     <NavLink className="nav-link" to="/Services">SERVICES</NavLink>
