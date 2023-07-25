@@ -1,0 +1,33 @@
+.background-contact {
+    background-color: blue;
+}
+
+.contact-section {
+    background-color: white;
+    margin: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.contact-form .section-title,
+.address-information .section-title{
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem;
+}
+
+form input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 8px;
+}
+
