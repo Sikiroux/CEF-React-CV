@@ -6,9 +6,11 @@ import Home from "./pages/pageHome/Home.jsx"
 import Realisation from "./pages/pageReal/Realisation.jsx"
 import Services from "./pages/pageServices/Services.jsx"
 import Contact from "./pages/pageContact/Contact.jsx"
+import Legal from "./pages/pageLegal/Legal.jsx"
 
 import Header from './component/Header/Header.jsx'
 import Footer from './component/Footer/Footer.jsx'
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path="/Realisation" element={<Realisation/>}></Route>
           <Route path="/Blog" element={<Blog/>}></Route>
           <Route path="/Contact" element={<Contact/>}></Route>
+          <Route path="/Legal" element={<Legal/>}></Route>
       </Routes>
       <Footer/>
     </div>

@@ -1,6 +1,5 @@
 .blogcard-container {
     display: flex;
-    justify-content: center;
 }
 
 .blogcard-container__card-container {
