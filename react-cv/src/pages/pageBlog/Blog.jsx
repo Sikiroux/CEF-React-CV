@@ -9,6 +9,7 @@ import Card from "../../component/Card/Card.jsx";
 export default function Blog() {
     return(
     <main>
+        {/* Banner component */}
         <Banner/>
         <TitleSection
             title="Blog"
@@ -17,6 +18,7 @@ export default function Blog() {
         <section className="blog-section container">
             <div className="row">
                 <div className="col-12">
+                    {/* Card container */}
                     <div className="row blogcard-container">
                         <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 blogcard-container__card-container">
                             <Card 

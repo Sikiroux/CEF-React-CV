@@ -46,9 +46,9 @@ export default function Footer() {
                     <div className="container real__container">
                         <h5>Mes dernière realisations</h5>
                         <nav className="real__nav">
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Real 1</Link>
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Real 2</Link>
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Real 3</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Calculatrice</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Admin Dashboard</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Signup Form</Link>
                         </nav>
                     </div>
                 </div>
@@ -56,9 +56,9 @@ export default function Footer() {
                     <div className="container blog__container">
                         <h5>Mes derniers articles</h5>
                         <nav className="blog__nav">
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Blog 1</Link>
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Blog 2</Link>
-                            <Link className="links"><img src={chevron} alt="chevron" class="links-chevron" />Blog 3</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Coder son site en HTML/CSS</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Vendre ses produits sur le web</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Se positionner sur Google</Link>
                         </nav>
                     </div>
                 </div>

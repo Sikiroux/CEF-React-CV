@@ -4,8 +4,6 @@
 
 .portfolio-section__card-container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
 }
 
 
@@ -32,4 +30,10 @@
 
 .card-footer p{
     margin-bottom: 0;
+}
+
+.card-container__portfolio-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
