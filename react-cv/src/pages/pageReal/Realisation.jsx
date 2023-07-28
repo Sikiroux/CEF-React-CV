@@ -25,7 +25,7 @@ export default function Realisation() {
                         <div className="row portfolio-section__card-container">
                             <div className="card-container__portfolio-card col-sm-6 col-md-6 col-lg-4">
                                 <Card
-                                    className="project-card"
+                                    class="project-card"
                                     title="Calculatrice"
                                     image={imageCalculator}
                                     imageAlt="Image du projet calculatrice"
@@ -37,7 +37,7 @@ export default function Realisation() {
                             </div>
                             <div className="card-container__portfolio-card col-sm-6 col-md-6 col-lg-4">
                                 <Card 
-                                    className="project-card"
+                                    class="project-card"
                                     title="Admin Dashboard"
                                     image={imageAdmin}
                                     text="Some quick example text to build on the card title and make up the bulk of the card's content."
@@ -48,7 +48,7 @@ export default function Realisation() {
                             </div>
                             <div className="card-container__portfolio-card col-sm-6 col-md-6 col-lg-4">
                                 <Card 
-                                    className="project-card"
+                                    class="project-card"
                                     title="Signup Form"
                                     image={imageForm}
                                     text="Some quick example text to build on the card title and make up the bulk of the card's"

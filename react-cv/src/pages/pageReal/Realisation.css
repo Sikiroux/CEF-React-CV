@@ -19,7 +19,7 @@
     border: 1px solid blue;
     background-color: white;
     border-radius: 5px;
-    padding: 8px;
+    padding: 5px;
 }
 
 .project-card .card-button a {
@@ -36,4 +36,5 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative;
 }
