@@ -10,6 +10,6 @@
     margin-top: 20px;
 }
 
-.accordion-button:active {
+.accordion-button.collapse.show{
     color:blue;
 }

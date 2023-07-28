@@ -6,7 +6,9 @@ import { faLocationDot,faMobileScreen } from '@fortawesome/free-solid-svg-icons'
 import MapsView from "../../asset/image/google-maps.png"
 
 
+
 export default function Blog() {
+
     return(
         <main className="main-contact">
             <div className="background-contact"></div>

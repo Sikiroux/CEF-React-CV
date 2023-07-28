@@ -1,8 +1,9 @@
-import "./Legal.css"
-import TitleSection from "../../component/TitleSection/TitleSection.jsx"
+import "./Legal.css";
+import TitleSection from "../../component/TitleSection/TitleSection.jsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot,faMobileScreen,faEnvelope,faGlobe } from '@fortawesome/free-solid-svg-icons';
-import DocumentMeta from 'react-document-meta'
+import DocumentMeta from 'react-document-meta';
+import { useEffect } from "react";
 
 export default function Legal() {
     const meta = {
@@ -15,8 +16,22 @@ export default function Legal() {
             content: "noindex"
         }
     }
+
+    useEffect(() => {
+        let main = document.querySelector(".legal-main");
+        let buttons = main.querySelectorAll("button");
+        buttons.forEach(button =>{
+            button.addEventListener("click", () => {
+                buttons.forEach(button => {
+                    button.style.color = "black";
+                })
+                button.style.color = "blue";
+            })
+        })
+    },[])
+    
     return(
-        <main>
+        <main className="legal-main">
             <TitleSection title="MENTIONS LEGALES"/>
             <section className="container">
                 <div className="row">
