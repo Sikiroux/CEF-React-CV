@@ -14,9 +14,8 @@
 .main-picture__picture {
     position:absolute;
     content: "";
-    background-image: url(../../asset/image/programmer-gb8b1cab7f_1920.png);
+    background-image: url(../../asset/image/background.jpg);
     background-size: cover;
-    background-position: center;
     min-height: 100%;
     width: 100%;
     z-index: -1;

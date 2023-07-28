@@ -25,7 +25,7 @@ export default function Header() {
     changeStyleLink();
 
     return(
-        <header>
+        <header id="header">
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">JOHN DOE</a>

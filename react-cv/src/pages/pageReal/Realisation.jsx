@@ -29,7 +29,7 @@ export default function Realisation() {
                                     title="Calculatrice"
                                     image={imageCalculator}
                                     imageAlt="Image du projet calculatrice"
-                                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
+                                    text="Projet réalisé en tant que devoir pour The Odin Project, le but était de créer une calculatrice fonctionnel"
                                     link="https://github.com/Sikiroux/TOP-Calculator"
                                     textButton="voir"
                                     footer="Site réaliser avec HTML5, CSS3, JavaScript"
@@ -40,7 +40,8 @@ export default function Realisation() {
                                     class="project-card"
                                     title="Admin Dashboard"
                                     image={imageAdmin}
-                                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
+                                    imageAlt="Image du projet de création d'un dashboard d'admin"
+                                    text="Projet réalisé en tant que devoir pour The Odin Project, le but était de réaliser un dashboard d'admin en fonction de la maquette donnée"
                                     link="https://github.com/Sikiroux/TOP-Admin-Dashboard"
                                     textButton="voir"
                                     footer="Site realiser avec HTML5 et CSS3"
@@ -51,7 +52,8 @@ export default function Realisation() {
                                     class="project-card"
                                     title="Signup Form"
                                     image={imageForm}
-                                    text="Some quick example text to build on the card title and make up the bulk of the card's"
+                                    imageAlt="Image du projet formulaire d'inscription"
+                                    text="Projet réalisé en tant que devoir pour The Odin Project, le but était de créer/personnalisée une page d'inscription a un site internet"
                                     link="https://github.com/Sikiroux/TOP-Sign-up-form"
                                     textButton="voir"
                                     footer="Site realisé avec HTML5 et CSS3"

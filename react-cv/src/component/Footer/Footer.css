@@ -1,4 +1,7 @@
-
+.footer {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-info-container {
     background-color: #EEE;
@@ -39,11 +42,18 @@
 }
 
 .links-chevron {
-    height: 24px;
-    width: 24px;
+    color: blue;
 }
 
 .copyright-container__text {
     margin-bottom: 0;
     padding: 17px;
+}
+
+
+#toTopPage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    align-self: center;
 }
