@@ -20,7 +20,7 @@ export default function Blog() {
                             <div className="col-12">
                                 <div className="row">
                                     <section className="col-lg-6 contact-form">
-                                        <h2 class="section-title">Formulaire de contact</h2>
+                                        <h2 className="section-title">Formulaire de contact</h2>
                                         <form>
                                             <input type="text" placeholder="Votre nom" />
                                             <input type="mail" placeholder="Votre adresse email"/>

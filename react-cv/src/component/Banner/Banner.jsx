@@ -3,6 +3,6 @@ import "./Banner.css"
 
 export default function ImageSection() {
     return(
-        <img class="image-banner" src={image} alt="style"/>
+        <img className="image-banner" src={image} alt="style"/>
     )
 }

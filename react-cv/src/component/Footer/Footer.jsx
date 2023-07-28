@@ -34,11 +34,11 @@ export default function Footer() {
                     <div className="container links__container">
                         <h5>Liens utiles</h5>
                         <nav className="links__nav">
-                            <Link to="/" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Accueil</Link>
-                            <Link to="/" className="links"><img src={chevron} alt="chevron" class="links-chevron" />A propos</Link>
-                            <Link to="/Services" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Services</Link>
-                            <Link to="/Contact" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Me contacter</Link>
-                            <Link to="/Legal" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Mentions légales</Link>
+                            <Link to="/" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Accueil</Link>
+                            <Link to="/" className="links"><img src={chevron} alt="chevron" className="links-chevron" />A propos</Link>
+                            <Link to="/Services" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Services</Link>
+                            <Link to="/Contact" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Me contacter</Link>
+                            <Link to="/Legal" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Mentions légales</Link>
                         </nav>
                     </div>
                 </div>
@@ -46,19 +46,19 @@ export default function Footer() {
                     <div className="container real__container">
                         <h5>Mes dernière realisations</h5>
                         <nav className="real__nav">
-                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Calculatrice</Link>
-                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Admin Dashboard</Link>
-                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Signup Form</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Calculatrice</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Admin Dashboard</Link>
+                            <Link to="/Realisation" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Signup Form</Link>
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 footer__blog">
+                <div className="col-lg-3 col-md-6 footer__blog">
                     <div className="container blog__container">
                         <h5>Mes derniers articles</h5>
                         <nav className="blog__nav">
-                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Coder son site en HTML/CSS</Link>
-                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Vendre ses produits sur le web</Link>
-                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" class="links-chevron" />Se positionner sur Google</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Coder son site en HTML/CSS</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Vendre ses produits sur le web</Link>
+                            <Link to="BLog" className="links"><img src={chevron} alt="chevron" className="links-chevron" />Se positionner sur Google</Link>
                         </nav>
                     </div>
                 </div>

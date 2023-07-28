@@ -15,9 +15,9 @@ export default function Blog() {
             <div className="container main__services-container ">
                 <div className="row">
                     <div className="col-12">
-                        <div className= "row s ervices-container">
+                        <div className= "row services-container">
                             {/* Card 1 */}
-                            <div className="titoy col-sm-8 col-md-4 col-lg-4 services-card">
+                            <div className="col-sm-8 col-md-4 col-lg-4 services-card">
                                 <div className=" services-container__ux">
                                     <img className="logo ux-design-logo" src={ux} alt="ux-icon"/>
                                     <h2>UX DESIGN</h2>
