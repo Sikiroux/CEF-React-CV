@@ -4,8 +4,6 @@
 
 .portfolio-section__card-container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
 }
 
 
@@ -21,7 +19,7 @@
     border: 1px solid blue;
     background-color: white;
     border-radius: 5px;
-    padding: 8px;
+    padding: 5px;
 }
 
 .project-card .card-button a {
@@ -32,4 +30,11 @@
 
 .card-footer p{
     margin-bottom: 0;
+}
+
+.card-container__portfolio-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
 }

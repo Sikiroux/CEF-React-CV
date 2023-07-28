@@ -1,20 +1,21 @@
 import "./Home.css"
 import image from "../../asset/image/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-
+import { Link } from 'react-router-dom'
 export default function Home() {
     return(
-        <div class="Home">
+        <main className="Home">
             {/* Background image with name */}
-            <div class="main-picture">
+            <section className="main-picture">
+                <div className="main-picture__picture"></div>
                 <h1>Bonjour, je suis John Doe</h1>
                 <h2>Développeur web full stack</h2>
-                <button>En savoir plus</button>
-            </div>
+                <a href="#about"><button className="main-picture__button">En savoir plus</button></a>
+            </section>
             <main>
-                <div class="main-container container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-4 container main-container__about-container">
-                            <h3 class="about-container__title">À propos</h3>
+                <div className="main-container container" id="about">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-4 container main-container__about-container">
+                            <h3 className="about-container__title">À propos</h3>
                             <p>Passioné par l'informatique et les nouvelles technologies,
                                 j'ai suivi une formation d'<strong>intégrateur-développeur 
                                 web</strong> au CEF. Au cours de cette formation, j'ai pu
@@ -31,33 +32,33 @@ export default function Home() {
                                 je respecte les bonnes 
                             </p>
                         </div>
-                        <div class="col-md-6 col-sm-4 container main-container__skills-container">
-                            <img class="skills-container__image" src={image} alt="okay"/>
-                            <h3 class="skills-container__title">Mes compétences</h3>
-                            <p class="skill">HTML5 90%</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="col-md-6 col-sm-4 container main-container__skills-container">
+                            <img className="skills-container__image" src={image} alt="okay"/>
+                            <h3 className="skills-container__title">Mes compétences</h3>
+                            <p className="skill">HTML5 90%</p>
+                            <div className="progress">
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="skill">CSS3 80%</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <p className="skill">CSS3 80%</p>
+                            <div className="progress">
+                                <div className="progress-bar bg-info" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="skill">JAVASCRIPT 70%</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <p className="skill">JAVASCRIPT 70%</p>
+                            <div className="progress">
+                                <div className="progress-bar bg-warning" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="skill">PHP 60%</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style={{width: "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <p className="skill">PHP 60%</p>
+                            <div className="progress">
+                                <div className="progress-bar bg-success" role="progressbar" style={{width: "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="skill">REACT 50%</p>
-                            <div class="progress">
-                                <div class="progress-bar " role="progressbar" style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <p className="skill">REACT 50%</p>
+                            <div className="progress">
+                                <div className="progress-bar " role="progressbar" style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </main>
-        </div>
+        </main>
     )
 }
