@@ -1,17 +1,18 @@
 import "./Home.css"
 import image from "../../asset/image/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-
+import { Link } from 'react-router-dom'
 export default function Home() {
     return(
-        <div class="Home">
+        <main class="Home">
             {/* Background image with name */}
-            <div class="main-picture">
+            <section class="main-picture">
+                <div class="main-picture__picture"></div>
                 <h1>Bonjour, je suis John Doe</h1>
                 <h2>Développeur web full stack</h2>
-                <button>En savoir plus</button>
-            </div>
+                <a href="#about"><button className="main-picture__button">En savoir plus</button></a>
+            </section>
             <main>
-                <div class="main-container container">
+                <div class="main-container container" id="about">
                     <div class="row">
                         <div class="col-md-6 col-sm-4 container main-container__about-container">
                             <h3 class="about-container__title">À propos</h3>
@@ -58,6 +59,6 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-        </div>
+        </main>
     )
 }

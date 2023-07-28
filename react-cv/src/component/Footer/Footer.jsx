@@ -21,7 +21,7 @@ export default function Footer() {
                         Diebold,+69009+Lyon/@45.778662,4.7963986,17z/data=!3m1!4b1!4m6!3m5!1
                         s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th
                         ?entry=ttu" target="_blank" rel="noreferrer" className="links">40 Rue Laure Diebold <br/>69009 Lyon, France</a>
-                        <p>Téléphone: <a href="0620304050" className="links">06 20 30 40 50</a></p>
+                        <p>Téléphone: <a href="tel:0620304050" className="links">06 20 30 40 50</a></p>
                         </address>
                         <div className="container info__logo-container">
                             <img src={github}/>

@@ -1,4 +1,7 @@
+import "./Legal.css"
 import TitleSection from "../../component/TitleSection/TitleSection.jsx"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot,faMobileScreen,faEnvelope,faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 export default function Legal() {
     return(
@@ -16,10 +19,10 @@ export default function Legal() {
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <h2>John Doe</h2>
-                                <address>
-                                    <p>40 Rue Laure Diebold <br/> 69009 Lyon, France</p>
-                                    <a href="tel:0620304050">06 20 30 40 50</a><br/>
-                                    <a href="mailto:john.doe@gmail.com">jhon.doe@gmail.com</a>
+                                <address className="editor-address">
+                                    <p> <FontAwesomeIcon icon={faLocationDot}/> 40 Rue Laure Diebold <br/> 69009 Lyon, France</p>
+                                    <FontAwesomeIcon icon={faMobileScreen}/> <a href="tel:0620304050" className="editor-address__phone">06 20 30 40 50</a><br/>
+                                    <FontAwesomeIcon icon={faEnvelope}/> <a href="mailto:john.doe@gmail.com" className="editor-address__mail">jhon.doe@gmail.com</a>
                                 </address>
                             </div>
                             </div>
@@ -33,9 +36,9 @@ export default function Legal() {
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <h2>Always Data</h2>
-                                <address>
+                                <address className="host-address">
                                     <p>91 rue du Faubourg Saint Honoré <br/> 75008 Paris</p>
-                                    <a href="www.alwaysdata.com">www.alwaysdata.com</a>
+                                    <FontAwesomeIcon icon={faGlobe}/> <a href="www.alwaysdata.com" className="host-address__website">www.alwaysdata.com</a>
                                 </address>
                             </div>
                             </div>
@@ -49,7 +52,7 @@ export default function Legal() {
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <h2>Crédits</h2>
-                                <p>Site développé par Jhon Doe, étudiant du CEF.</p>
+                                <p className="text-one">Site développé par Jhon Doe, étudiant du CEF.</p>
                                 <br/>
                                 <p>Les images libres de droit sont issues du site <a href="https://pixabay.com/">Pixabay.</a></p>
                             </div>

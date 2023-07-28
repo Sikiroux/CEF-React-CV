@@ -4,12 +4,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../asset/image/programmer-gb8b1cab7f_1920.png);
-    background-size: cover;
-    background-position: center;
     padding-top: 15%;
     padding-bottom: 15%;
     min-height: 600px;
+}
+
+.main-picture__picture {
+    position:absolute;
+    content: "";
+    background-image: url(../../asset/image/programmer-gb8b1cab7f_1920.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-picture__picture::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .main-container {
@@ -52,3 +69,26 @@
 .progress {
     margin-bottom: 15px;
 }
+
+.main-picture__button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-picture h1,
+.main-picture h2 {
+    color: white;
+}
+
+.main-picture h1 {
+    font-size: 4.5rem;
+    margin-bottom: 35px;
+}
+
+.main-picture h2 {
+    margin-bottom: 25px;
+}
+
